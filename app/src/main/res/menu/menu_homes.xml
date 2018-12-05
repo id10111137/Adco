@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menuone">
+        <item
+            android:id="@+id/mHomes"
+            android:enabled="true"
+            android:icon="@drawable/ic_home"
+            android:title="My Homes" />
+        <item
+            android:id="@+id/mMyProduct"
+            android:enabled="true"
+            android:icon="@drawable/ic_signout"
+            android:title="My Product" />
+        <item
+            android:id="@+id/mLogTransaksi"
+            android:enabled="true"
+            android:icon="@drawable/ic_signout"
+            android:title="Log Transaksi" />
+
+    </group>
+</menu>

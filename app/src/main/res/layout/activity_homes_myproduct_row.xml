@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/id_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_employee" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/id_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Header" />
+
+        <TextView
+            android:id="@+id/id_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name Product" />
+
+        <TextView
+            android:id="@+id/id_qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qty Stock" />
+
+        <TextView
+            android:id="@+id/id_harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga" />
+
+        <TextView
+            android:id="@+id/id_jam_transkasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jam Transaksi" />
+
+        <TextView
+            android:id="@+id/id_promo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Promo" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

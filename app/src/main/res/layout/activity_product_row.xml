@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/p10">
+
+    <LinearLayout
+        android:id="@+id/id_Ll_product"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id_name_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Category : Bakso" />
+
+            <TextView
+                android:id="@+id/id_type_Category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type Category : Makanan" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
