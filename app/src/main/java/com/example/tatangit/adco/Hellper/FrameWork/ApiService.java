@@ -15,6 +15,10 @@ public interface ApiService {
                                     @Field("password") String password);
 
     @FormUrlEncoded
+    @POST("user/list_user")
+    Call<ResponseBody> ListUser(@Field("id_outlet") String id_outlet);
+
+    @FormUrlEncoded
     @POST("user/lihat_outlet")
     Call<ResponseBody> ListOutlet(@Field("id_outlet") String id_outlet);
 
